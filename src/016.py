@@ -1,0 +1,24 @@
+
+#file_name = 'read_sample.txt'
+
+#with open(file_name, 'r') as handle:
+#    for line in handle:
+#        print(line.strip())
+
+#file_name = 'read_sample.txt'
+
+#handle = open(file_name, 'r')
+#for line in handle:
+#    print(line.strip())
+
+file_name = 'read_sample.txt'
+
+handle = open(file_name, 'r')
+lines = handle.readlines()
+for line in lines:
+    print(line.strip())
+handle.close()
+
+
+
+
